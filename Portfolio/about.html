@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About</title>
-    <link href="style.css" rel="stylesheet"></link>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link href="styles.css" rel="stylesheet"></link>
 </head>
 <body>
     <nav>
@@ -16,6 +17,43 @@
         </ul>
     </nav>
     
-    <p>About page</p>
+    
+    <div class="container ">
+        <h3>About Me</h3>
+        <div class="about">
+            <img src="./images/byline_photo.jpeg">
+                <div class = "text">
+                    <p> Originally from the United States, I've been living abroad for 15 years.
+                    I was in Nicaruagua for a couple of years before settling in Barcelona.
+                    I love hiking, running, reading, jigsaw puzzles and spending time with friends and my fur baby Chela (see pics below) </p>
+                    <p> I've had a few different careers on my way to becoming a developer, but  none of them were as exciting as learning to code has been! I can't wait to learn more! </p>
+                </div>
+        </div>
+
+    </div>
+    
+    <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide"><img src="./images/puppy.jpeg" alt="Chela"></div>
+          <div class="swiper-slide"><img src="./images/closeup.jpeg" alt="Chela"></div>
+          <div class="swiper-slide"><img src="./images/couch.jpeg" alt="Chela"></div>
+          <div class="swiper-slide"><img src="./images/garden.jpeg" alt="Chela"></div>
+          <div class="swiper-slide"><img src="./images/fireplace.jpeg" alt="Chela"></div>
+          <div class="swiper-slide"><img src="./images/withbaby.jpeg" alt="Chela"></div>
+          ...
+        </div>
+        <!-- If we need pagination
+        <div class="swiper-pagination"></div> -->
+      
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      
+        
+      </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="about.js"></script>
 </body>
 </html>
