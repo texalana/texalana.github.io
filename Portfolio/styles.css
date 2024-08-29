@@ -1,0 +1,108 @@
+body {
+    /* background-color: #8ECAE6; */
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image: url(https://images.pexels.com/photos/255379/pexels-photo-255379.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+    font-size: 1.2rem;
+}
+
+nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    gap: 5px;
+}
+
+nav li {
+    width: 5rem;
+    background-color: #fb8600db;
+    /* margin-bottom: 1rem; */
+    border-radius: 3px;
+    text-align: center;
+    
+    
+}
+
+.index {
+    text-align: center;
+    margin-top: 15rem;
+}
+
+.index h2{
+font-size: 34px;
+}
+
+nav a {
+    text-decoration: none;
+    color: whitesmoke;
+    display: block;
+    padding: 2px;
+}
+
+.about img {
+    border-radius: 120px;
+    margin-right: 20px;
+}
+
+.container {
+    width: 70%;
+    background-color: #8ECAE6;
+    /* opacity: 0.8; */
+    margin: 0 auto;
+    margin-bottom: 3rem;
+    padding: 3rem;
+    border-radius: 13px ;
+    border: 2px solid #219EBC;
+    
+}
+
+.about {
+    display: flex;
+}
+
+.text {
+display: flex;
+flex-direction: column;
+}
+
+.swiper {
+    width: 600px;
+    height: 300px;
+    text-align: center;
+  }
+
+  .swiper-slide img {
+    width: 100%; 
+    height: 100%; 
+    object-fit: contain; 
+  }
+
+  .bungee-regular {
+    font-family: "Bungee", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    margin-left: 5rem;
+    margin-top: 2rem;
+  }
+
+  input {
+    border-radius: 3px;
+    border-style: none;
+    margin-bottom: 1rem;
+    width: 50%;
+  }
+
+  button {
+    font-size: 1rem;
+    margin-top: 2rem;
+    background-color: #fb8600db ;
+    color: whitesmoke;
+    border: none;
+    padding: 0.5rem 1 rem;
+    border-radius: 10px;
+    width: 50%;
+  }
